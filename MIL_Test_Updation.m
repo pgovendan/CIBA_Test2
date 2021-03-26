@@ -14,6 +14,7 @@ try
     out_port_names = get_param(out_ports,'Name'); % extract name of the block
     out_port_names = replace(out_port_names,' ','_');
     
+    
     for x = 1 : length(out_ports)
         out_port_names_1{x}  = strcat(out_port_names{x},'_MIL');
     end
