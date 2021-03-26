@@ -8,8 +8,7 @@ function [ret]=MIL_Testing(Model_Name,mdl_type,MFile_name)
 try
 
          
-	bdclose all
-	
+	bdclose all	
 	evalin('base', MFile_name);
 	hpath = strcat(pwd,'\sldv_output\',Model_Name);
     if(mdl_type=='1') %pass .mdl
