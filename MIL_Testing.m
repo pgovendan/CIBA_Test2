@@ -48,6 +48,7 @@ try
     end
 catch
     disp('Error While execution of MIL Testing')
+    
     ret = 1;
 	exit(1);
 end
