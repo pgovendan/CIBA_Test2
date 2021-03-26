@@ -5,6 +5,7 @@
 function [harness_name] = MIL_Test_Updation(model_name)
 try
     bdclose all;
+    disp('test');
     %evalin('base', MFile_name);
     load_system(model_name);
     
