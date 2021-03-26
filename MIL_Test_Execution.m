@@ -5,6 +5,7 @@
 function [status]= MIL_Test_Execution(model_name)
 try
     tcpath   = strcat(pwd,'\testcase_MAT\');
+    
     covpath  = strcat(pwd,'\CoverageReport\');
     
     if ~exist(tcpath, 'dir')
