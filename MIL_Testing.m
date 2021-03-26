@@ -9,6 +9,7 @@ try
 
          
 	bdclose all
+	
 	evalin('base', MFile_name);
 	hpath = strcat(pwd,'\sldv_output\',Model_Name);
     if(mdl_type=='1') %pass .mdl
