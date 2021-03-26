@@ -16,6 +16,7 @@ try
     exit(0);
 catch e
     disp('Error While updating the model')
+    
     disp(Mdl_name);
     ret = e.message;
 	exit(1);
