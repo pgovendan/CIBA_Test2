@@ -4,6 +4,7 @@ SET mfilename=%2
 SET /A stage_num=%3
 SET build_n=%4%
 SET funPath=%5
+echo "Fun Path in Batch File Selected as: = %funPath%
 REM SET MDL_TYPE=%6
 REM SET MDL_COMPLX=%7 
 
