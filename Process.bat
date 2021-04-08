@@ -4,8 +4,8 @@ SET mfilename=%2
 SET /A stage_num=%3
 SET build_n=%4%
 SET funPath=%5
-SET MDL_TYPE=%6
-SET MDL_COMPLX=%7
+REM SET MDL_TYPE=%6
+REM SET MDL_COMPLX=%7
 
 SET matlabpath_2018b="C:\MATLAB\R2018b\bin\matlab.exe"
 SET matlabpath_2019b="C:\MATLAB\R2019b\bin\matlab.exe"
