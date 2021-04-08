@@ -10,6 +10,7 @@ echo "mfilename in Batch File Selected as: = %mfilename%
 echo "Stage #  Batch File Selected as: = %stage_num%
 echo "Build # Batch File Selected as: = %build_n%
 echo "Fun Path in Batch File Selected as: = %funPath%
+echo "Err_Lel"
 
 REM SET MDL_TYPE=%6
 REM SET MDL_COMPLX=%7 
