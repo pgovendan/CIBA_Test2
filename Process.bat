@@ -5,12 +5,12 @@ SET /A stage_num=%3
 SET build_n=%4%
 SET funPath=%5
 
-echo "mname in Batch File Selected as: = %mname%
-echo "mfilename in Batch File Selected as: = %mfilename%
-echo "Stage #  Batch File Selected as: = %stage_num%
-echo "Build # Batch File Selected as: = %build_n%
-echo "Fun Path in Batch File Selected as: = %funPath%
-echo "Err_Lel"
+REM echo "mname in Batch File Selected as: = %mname%
+REM echo "mfilename in Batch File Selected as: = %mfilename%
+REM echo "Stage #  Batch File Selected as: = %stage_num%
+REM echo "Build # Batch File Selected as: = %build_n%
+REM echo "Fun Path in Batch File Selected as: = %funPath%
+REM echo "Err_Lel"
 
 REM SET MDL_TYPE=%6
 REM SET MDL_COMPLX=%7 
