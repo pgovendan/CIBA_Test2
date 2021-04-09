@@ -16,7 +16,8 @@ REM SET MDL_TYPE=%6
 REM SET MDL_COMPLX=%7 
 
 SET matlabpath_2018b="C:\MATLAB\R2018b\bin\matlab.exe"
-SET matlabpath_2019b="C:\MATLAB\R2019b\bin\matlab.exe"
+REM SET matlabpath_2019b="C:\MATLAB\R2019b\bin\matlab.exe"
+SET matlabpath_2019b="C:\Program Files\MATLAB\R2019b\bin\matlab.exe"
 REM echo "MFile Name in Batch File Selected as: = %mfilename%
 REM echo "Stage number is: = %stage_num%
 
